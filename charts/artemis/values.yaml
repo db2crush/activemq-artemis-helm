@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-## repository and image tag are required
-#  repository: some/image
-#  tag: 2.17.0
+# repository and image tag are required
+  repository: db2crush/activemq-artemis
+  tag: latest
   pullPolicy: IfNotPresent
   pullSecrets: []
 
